@@ -53,29 +53,3 @@ macOS / 'nix
 Windows:
 
 `gradlew.bat test` or `./mvnw.cmd test`
-# election-api
-
-Follow these 
-
-```declarative
-…or create a new repository on the command line
-echo "# election-api" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:shalinisingh405/election-api.git
-git push -u origin main
-```
-if any error while pushing to git for ex> 
-
-''' error: failed to push some refs to 'github.com:shalinisingh405/election-api.git''
-
-do these - 
-```declarative
-git reset --mixed origin/main
-git add .
-git commit -m "This is a new commit for what I originally planned to be amended"
-git push origin main
-```
-
